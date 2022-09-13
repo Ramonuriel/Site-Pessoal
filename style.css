@@ -25,12 +25,13 @@ body.light{
 .container {
   color: aliceblue;
   border: 5px solid var(--color-primary);
-  width: 500px;
-  margin-block: 40px;
+  width: 600px;
+  height: 900px;
+  margin-block: 20px;
   margin-inline: auto;
   text-align: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 img {
@@ -40,7 +41,7 @@ img.avatar {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-block: 40px;
+  margin-block: 35px;
   padding: 3.7px;
   border: var(--color-primary) solid 4px;
 }
@@ -61,7 +62,7 @@ p {
 
 ul {
   list-style: none;
-  margin: 48px 0;
+  margin: 45px 0;
 }
 
 li :hover {
@@ -73,11 +74,12 @@ a {
 }
 
 ul li a {
-  width: 50%;
-  height: 65px;
+  width: 45%;
+  height: 60px;
   font-size: 14px;
+  line-height: 60px;
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-align: center;
   justify-content: center;
